@@ -1,0 +1,11 @@
+q0 q1 q2 q3 q4
+q4
+1
+1 0 B
+q0 1=q0 1 r
+q0 0=q1 1 r
+q1 1=q1 1 r
+q1 B=q2 B l
+q2 1=q3 0 l
+q3 1=q3 1 l
+q3 B=q4 B r

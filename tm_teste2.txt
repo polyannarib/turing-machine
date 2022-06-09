@@ -1,0 +1,22 @@
+q0 q1 q2 q3 q4 q5
+q5
+a b c
+a b c x y z B
+q0 a=q1 x r
+q1 a=q1 a r
+q1 b=q2 y r
+q2 b=q2 b r
+q2 c=q3 z l
+q3 b=q3 b l
+q3 y=q3 y l
+q3 a=q3 a l
+q3 x=q0 x r
+q1 y=q1 y r
+q2 z=q2 z r
+q3 z=q3 z l
+q0 y=q4 y r
+q4 y=q4 y r
+q4 z=q4 z r
+q4 B=q5 B r
+
+L = {a^nb^nc^n | n >= 1}
